@@ -1,7 +1,7 @@
-streamlit
-pandas
-numpy
-matplotlib
-seaborn
-plotly
-scikit-learn
+streamlit>=1.30
+pandas>=2.1
+numpy>=1.25
+matplotlib>=3.8
+seaborn>=0.12
+plotly>=5.16
+scikit-learn>=1.3
