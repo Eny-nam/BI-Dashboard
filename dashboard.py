@@ -257,8 +257,8 @@ metrics = {
 # -------------------------
 # Display Metrics in Dashboard
 # -------------------------
-st.subheader("Model Evaluation Metrics")
-st.table(pd.DataFrame(metrics, index=[0]).T.rename(columns={0:"Value"}))
+#st.subheader("Model Evaluation Metrics")
+#st.table(pd.DataFrame(metrics, index=[0]).T.rename(columns={0:"Value"}))
 
 
 df_ml["High_Profit_Pred"] = pipeline.predict(X)
